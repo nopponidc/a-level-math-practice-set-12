@@ -98,7 +98,7 @@ export const problems: Problem[] = [
   {
     code: "0042",
     question: <><p>กำหนดให้ <Math tex="A" /> และ <Math tex="B" /> เป็นเมทริกซ์มิติ <Math tex="3\times3" /> และ <Math tex="I" /> เป็นเมทริกซ์เอกลักษณ์มิติ <Math tex="3\times3" /> โดยที่ <Math tex="AB=A+B" /> และ <Math tex="\det(A-I)=8" /> จะได้ <Math tex="\det(I-B^t)" /> มีค่าเท่าใด</p></>,
-    solution: <><p>จัดรูป <Math tex="AB=A+B" /> ได้สองแบบ</p><Math block tex="(A-I)B=A,\qquad A(B-I)=B" /><p>หาดีเทอร์มิแนนต์จากสมการแรกได้ <Math tex="8\det B=\det A" /> แล้วแทนในสมการที่สอง</p><Math block tex="\det A\det(B-I)=\det B\quad\Rightarrow\quad\det(B-I)=\frac18" /><p>เพราะเมทริกซ์มีมิติ 3</p>{answer(<Math tex="\det(I-B^t)=\det(-(B-I)^t)=(-1)^3\det(B-I)=-\frac18" />)}</>,
+    solution: <><p>เติม <Math tex="I" /> ทั้งสองข้างแล้วแยกตัวประกอบโดยตรง</p><Math block tex="AB-A-B+I=I\quad\Rightarrow\quad(A-I)(B-I)=I" /><p>หาดีเทอร์มิแนนต์และใช้ <Math tex="\det(A-I)=8" /> จะได้</p><Math block tex="8\det(B-I)=1\quad\Rightarrow\quad\det(B-I)=\frac18" /><p>เพราะเมทริกซ์มีมิติ 3</p>{answer(<Math tex="\det(I-B^t)=\det(-(B-I)^t)=(-1)^3\det(B-I)=-\frac18" />)}</>,
   },
   {
     code: "0049",
