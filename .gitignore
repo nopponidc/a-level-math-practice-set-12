@@ -1,0 +1,9 @@
+node_modules
+.pnpm-store/
+.next/
+.wrangler/
+netlify-dist/
+tmp/
+.DS_Store
+*.tsbuildinfo
+ชุดที่ 12.pdf
